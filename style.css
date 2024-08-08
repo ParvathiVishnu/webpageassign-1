@@ -1,0 +1,782 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+body
+{
+    background:linear-gradient(orange,red,rgb(167, 76, 206));
+    /* height:100vh;
+    width:100vw; */
+}
+/* Logo and heading styling */
+.head
+{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap:5px;
+    margin:15px;
+    position:relative;
+    
+}
+.logo
+{
+    font-size: 50px;
+}
+.head h3
+{
+    font-size: 25px;
+    font-weight: 900;
+}
+.head span
+{
+    color:rgb(225, 225, 17);
+}
+
+/* Navitems and Search Styling */
+
+.head .navitems
+{
+    display:flex;
+    position:absolute;
+    left:400px;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+    margin:15px;
+}
+
+.navitems a
+{
+    text-decoration: none;
+    color:rgb(33, 25, 149) ;
+    font-size: 20px;
+}
+
+.navitems a:hover
+{
+    color:rgb(197, 53, 21);
+    border-bottom: 3px solid rgb(197, 53, 21) ;
+}
+
+.search
+{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    gap:90px;
+    position:relative;
+    
+}
+.search span
+{
+    font-size: 25px;
+    height:20px;
+    width:30px;
+    background-color: red;
+    padding:12px;
+    border-radius:50%;
+    text-align: center;
+    /* z-index:1; */
+    position:absolute;
+    left:150px;
+}
+.search .btn
+{
+    background-color: rgb(96, 224, 94);
+    border:3px solid brown;
+    border-radius:25px;
+    padding:5px;
+    margin:15px;
+    position: absolute;
+    text-align: center;
+    left:220px;
+    
+ }
+.search a
+{
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+    width:100%;
+}
+.search
+{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    gap:10px;
+    margin:15px;
+    position: absolute;
+    left:550px;
+    
+
+}
+.search input
+{
+    border: 3px solid black;
+    padding:10px 20px;
+    border-radius: 20px;
+}
+
+/* Introduction Styling */
+
+.intro
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px;
+    /* background-color: aqua; */
+
+}
+.small_h
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(38, 155, 5, 0.5);
+    padding:5px;
+    height:30px;
+    width:230px;
+    border-radius:20px;
+    gap:5px;
+    
+}
+
+.para h1
+{
+    font-size: 45px;
+}
+
+.person1
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    margin-top: 30px;
+}
+.person1 img
+{
+    width: 45px;
+    border-radius:50%;
+}
+.explore
+{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap:100px;
+    margin-top:50px;
+}
+
+.explore a
+{
+    text-decoration: none;
+    color:black;
+    font-size:15px;
+    font-weight: 700;
+}
+
+.explore .btn
+{
+    background-color: orange;
+    border:3px solid brown;
+    border-radius:25px;
+    padding:5px;
+    font-weight: 700;
+}
+
+.explore .video
+{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+
+.video i
+{
+    color:rgb(180, 180, 7);
+    background-color:white;
+    padding:10px;
+    border-radius: 50%;
+    
+}
+
+.guest img
+{
+    width: 45px;
+    border-radius:50%;
+}
+.guest
+{
+    display:flex;
+    position:relative;
+    margin-top:40px;
+}
+.person2 img
+{
+    position:absolute;
+    left:60px;
+}
+.person3 img
+{
+    position:absolute;
+    left:35px;
+}
+.person4 img
+{
+    position:absolute;
+    left:10px;
+}
+.happy
+{
+    position: absolute;
+    left:150px;
+    line-height: 24px;
+}
+.happy a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+.happy span
+{
+    color:rgba(65, 64, 64, 0.784);
+}
+.happy h3
+{
+    font-size: 15px;
+    font-style: normal;
+}
+.happy i
+{
+    color:rgb(177, 152, 8);
+}
+.right_i img
+{
+    width: 750px;
+    opacity:0.9;
+}
+.right_i
+{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    position:relative;
+    margin:15px;
+}
+.telephone
+{  
+    display: flex;
+    /* justify-content: space-between; */
+    align-items:flex-start;
+    gap:10px;
+    position:absolute;
+    background-color:rgba(255, 255, 255, 0.6);
+    padding:10px;
+    width:300px;
+    border-radius: 20px;
+    left:5px;
+    top:600px;
+}
+.telephone img
+{
+    width: 45px;
+    border-radius:50%;
+}
+.telephone i
+{
+    color:white;
+    background-color:rgb(184, 184, 17);
+    padding:10px;
+    border-radius:50%;
+    position: relative;
+    left:100px;
+}
+.telephone span
+{
+    font-size: 14px;
+    color:rgb(57, 38, 38);
+}
+.rate
+{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    background-color:rgba(255, 255, 255, 0.6);
+    padding:15px;
+    border-radius: 50px;
+    position:absolute;
+    top:150px;
+    left:5px;
+}
+.rate img
+{
+    width:100px;
+    background-color:black;
+    border-radius: 50%;
+}
+.rate .rate_detail
+{
+    line-height: 1.5rem;
+}
+.rate .rate_detail i
+{
+    color: rgb(108, 96, 23);
+}
+
+/* About Us Styling */
+.aboutus
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:15px;
+    position:relative;
+}
+.aboutus img
+{
+    width:250px;
+   
+}
+.left_a
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    position:absolute;
+    top:50px;
+    left:100px;
+    background-color: white;
+    padding:5px;
+    border-radius: 10px;
+}
+.left_a img
+{
+    width:180px;
+}
+.right_a
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    position:absolute;
+    top:50px;
+    left:800px;
+    background-color: white;
+    padding:15px;
+    border-radius: 10px;
+}
+.aboutus a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+    background-color: orange;
+    border:3px solid brown;
+    border-radius:25px;
+    padding:5px;
+    font-weight: 700;
+    position:absolute;
+    top:230px;
+}
+
+/* Online Ordering Styling */
+
+.online
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin:15px;
+}
+
+.left_online
+{
+    position:relative;
+    top:400px;
+    
+}
+.user
+{
+display:flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+height:auto;
+width:250px ;
+padding:20px;
+background-color: rgba(169, 182, 163, 0.6);
+border-radius: 25px;
+gap:50px;
+position:absolute;
+left:300px;
+top:350px;
+}
+.user img
+{
+    width:50px ;
+    border-radius: 50%;
+}
+.user i
+{
+    color: rgb(64, 64, 7);
+    background-color:yellow;
+    padding:10px;
+    border-radius: 50%;
+    position:absolute;
+    top:20px;
+    left:180px;
+    z-index: 4;
+}
+img.user1
+{
+    position:absolute;
+    left:80px;
+  
+}
+img.user2
+{
+    position:absolute;
+    left:110px;
+    
+}
+img.user3
+{
+    position:absolute;
+    left:145px;
+    z-index:3;
+}
+
+.right_online
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    position: absolute;
+    top:450px;
+    left:650px;
+}
+.right_online a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+.right_online .contact
+{
+    background-color: orange;
+    border:3px solid brown;
+    border-radius:25px;
+    padding:10px;
+    margin:30px;
+
+}
+.right_online .check
+{
+    background-color:white;
+    border:3px solid green;
+    border-radius:25px;
+    padding:10px;
+    margin:30px;
+
+}
+.right_online .deals
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap:3rem;
+}
+.deals i
+{
+    background-color: orange;
+    font-size: 30px;
+    border-radius: 50%;
+    padding:15px;
+   
+}
+.deals .deal_top
+{
+    display:flex;
+    gap:2rem;
+    margin-left:150px;
+   
+}
+.deal_top .delivery,.deal_top .exclusive
+
+{
+    background-color: white;
+    width:250px;
+    padding:10px;
+    padding-right: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    box-shadow: 0px 5px 5px 5px grey;
+}
+
+.deals .deal_bottom
+{
+    display:flex;
+    gap:2rem;
+    margin-left:140px;
+}
+ .deal_bottom .customise
+{
+    margin-left:0px;
+}
+.deal_bottom .feedback,.deal_bottom .customise
+{
+    background-color: white;
+    padding:10px;
+    padding-right: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    box-shadow: 0px 5px 5px 5px grey;
+}
+
+
+/* Grid Styling */
+.heading
+{
+    text-align: center;
+    
+}
+.grid h1
+{
+    line-height:2rem;
+    margin-bottom: 5px;
+}
+.heading .para
+{
+    margin: 30px;
+}
+.left_g img
+{
+ width: 50px;
+ border-radius: 50%;
+}
+.left_g a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+}
+.submenu
+{
+    display:flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    /* align-items:center; */
+    margin:15px;
+    padding:40px 15px;
+    padding-bottom:70px;
+    background-color: rgb(208, 146, 21);
+    gap:20px;
+    height:350px;
+    width:300px;
+    border-radius: 20px;
+}
+.submenu .dish , .submenu .appetizer ,.submenu .soup ,.submenu .dessert
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+    background-color: white;
+    padding:10px;
+    
+    border-radius:50px;
+}
+.submenu .salad
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+    background-color:rgb(184, 77, 11);
+    padding:10px;
+    border-radius:50px;
+}
+
+.right_g
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    gap:2rem 1rem;
+}
+.right_g img
+{
+    width:80%;
+    background-color: rgb(210, 53, 53);
+    border-radius: 25px;
+    padding:15px;
+}
+.grid_intro
+{
+    display:flex;
+}
+.caesar 
+{
+    text-align: center;
+    background-color: rgba(141, 227, 13, 0.4);
+    width:250px;
+    height: 150px;
+    padding:5px;
+    margin:10px;
+    display:flex;
+    font-size: 16px;
+    border-radius: 25px;
+    flex-direction: column;
+    
+    /* gap: 5px; */
+}
+.right_g a
+{
+    text-decoration: none;
+    color:black;
+    background-color: rgba(205, 11, 11, 0.4);
+    border: 3px solid black;
+    padding: 6px;
+    border-radius: 25px;
+    font-weight: 700;
+  
+}
+.right_g span
+{
+    margin-right:10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.right_g p
+{
+font-weight: 600;
+}
+
+.salad1
+{
+    position:absolute;
+    top:180px;
+    left:10px;
+}
+.greek
+{
+    text-align: center;
+    background-color: rgba(141, 227, 13, 0.4);
+    width:250px;
+    height: 150px;
+    padding:5px;
+    margin:10px;
+    display:flex;
+    font-size: 16px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+.salad2
+{
+    position:absolute;
+    top:180px;
+    left:390px;
+}
+
+.cobb
+{
+    text-align: center;
+    background-color: rgba(141, 227, 13, 0.4);
+    width:250px;
+    height: 150px;
+    padding:5px;
+    margin:10px;
+    display:flex;
+    font-size: 16px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+.salad3
+{
+    position:absolute;
+    top:180px;
+    left:770px;
+}
+
+.caprese
+{
+    text-align: center;
+    background-color: rgba(141, 227, 13, 0.4);
+    width:250px;
+    height: 150px;
+    padding:5px;
+    margin:10px;
+    display:flex;
+    font-size: 16px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+.salad4
+{
+    position:absolute;
+    top:550px;
+    left:10px;
+}
+
+.waldorf
+{
+    text-align: center;
+    background-color: rgba(134, 13, 227,0.6);
+    width:250px;
+    height: 150px;
+    padding:5px;
+    margin:10px;
+    display:flex;
+    font-size: 16px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+.salad5
+{
+    position:absolute;
+    top:550px;
+    left:390px;
+}
+
+.spinach
+{
+    text-align: center;
+    background-color:rgba(141, 227, 13, 0.4);
+    width:250px;
+    height: 150px;
+    padding:5px;
+    margin:10px;
+    display:flex;
+    font-size: 16px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+.salad6
+{
+    position:absolute;
+    top:550px;
+    left:770px;
+}
